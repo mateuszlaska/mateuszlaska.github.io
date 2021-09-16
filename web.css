@@ -1,0 +1,122 @@
+header {
+    --text: #f4f4f4;
+    --text-inverse: #333;
+    --background: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 3em;
+    transition: background 250ms ease-in;
+    background: var(--background);
+    color: var(--text);
+  }
+#bod{
+    background-color: #F4F4F4;
+
+}
+#content{
+    margin-top: 5px;
+    background-color: #F4F4F4;
+    color: #1b1d1a;
+    padding: 4em 0;
+    max-width: 900px;
+    margin: 0 auto;
+    
+}
+#myimage {
+    filter: brightness(70%);
+    margin: 0px;
+    padding: 0px;
+    transition: all 0.75s;
+    margin-bottom: 20px;
+}
+#container{
+    margin: 0px;
+    padding: 0px;
+}
+
+#banner{
+    max-width: 100%;
+    height: auto;
+}
+#header{
+    margin: 0px;
+    padding: 0px;
+    box-shadow: 0 3px 20px rgba(black, 0.2);
+}
+#nav{
+    background-color:  transparent;
+    padding-bottom: 1rem;
+    text-align:center
+}
+#logo{
+    margin-top: .5rem;
+
+}
+.nav-scrolled {
+    --text: #333;
+    --text-inverse:#FFFFFF;
+    --background: #FFFFFF;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
+  }
+  .home-intro {
+    padding: 50vh 0;
+    background: #123 url("fog-1535201_1920.jpg");
+    background-size: cover;
+    background-blend-mode: multiply;
+    color: white;
+    text-align: center;
+  }
+#firstRow{
+    margin-bottom: 30px;
+}
+.icon{
+    filter: brightness(70%);
+    transition: all 0.75s;
+    filter: saturate(0);
+}
+
+#titel{
+    font-weight: 900; 
+    font-size: 24px; 
+}
+#welcome{
+    font-weight: 900;
+    font-family: 'Lato', sans-serif;
+}
+#mainContent{
+    font-family: 'Poppins', sans-serif;
+}
+#me{
+    margin-top: 100px;
+}
+
+#vorstellung{
+    margin-bottom: 50px;
+}
+#intrests{
+    margin-top: 50px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  
+  ::-webkit-scrollbar-track {
+    background: #FFFFFF; 
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: #0C1B2D; 
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #0C1B2D; 
+  }
+
